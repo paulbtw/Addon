@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+</head>
+
+<body>
+    <div class="general_options">
+        <h1>General Options</h1>
+        <div class="option">
+            <input type="checkbox" id="allowOpenInNewTab" data-setting="allowOpenInNewTab">
+            <label for="allowOpenInNewTab" data-locale-text="option.allowOpenInNewTab">Allow opening in new tab</label>
+        </div>
+    </div>
+
+    <div class="stores">
+        <h1>Stores</h1>
+        <div class="stores__trusted">
+            <h3>Trusted Stores</h3>
+            <div class="option">
+                <input type="checkbox" id="steam" data-setting="steam">
+                <label for="steam" data-locale-text="option.steam">Steam</label>
+            </div>
+            <div class="option">
+                <input type="checkbox" id="epicgames" data-setting="epicgames">
+                <label for="epicgames" data-locale-text="option.epicgames">epicgames</label>
+            </div>
+            <div class="option">
+                <input type="checkbox" id="origin" data-setting="origin">
+                <label for="origin" data-locale-text="option.origin">origin</label>
+            </div>
+            <div class="option">
+                <input type="checkbox" id="uplay" data-setting="uplay">
+                <label for="uplay" data-locale-text="option.uplay">uplay</label>
+            </div>
+            <div class="option">
+                <input type="checkbox" id="gog" data-setting="gog">
+                <label for="gog" data-locale-text="option.gog">gog</label>
+            </div>
+            <div class="option">
+                <input type="checkbox" id="twitch" data-setting="twitch">
+                <label for="twitch" data-locale-text="option.twitch">Twitch</label>
+            </div>
+        </div>
+        <div class="stores__untrusted">
+            <h3>Retailers</h3>
+            <div class="option">
+                <input type="checkbox" id="g2a" data-setting="g2a">
+                <label for="g2a" data-locale-text="option.g2a">G2A</label>
+            </div>
+
+            <div class="option">
+                <input type="checkbox" id="mmoga" data-setting="mmoga">
+                <label for="mmoga" data-locale-text="option.mmoga">mmoga</label>
+            </div>
+
+            <div class="option">
+                <input type="checkbox" id="kinguin" data-setting="kinguin">
+                <label for="kinguin" data-locale-text="option.kinguin">kinguin</label>
+            </div>
+
+            <div class="option">
+                <input type="checkbox" id="hrkgame" data-setting="hrkgame">
+                <label for="hrkgame" data-locale-text="option.hrkgame">hrkgame</label>
+            </div>
+            <div class="option">
+                <input type="checkbox" id="gameladen" data-setting="gameladen">
+                <label for="gameladen" data-locale-text="option.gameladen">gameladen</label>
+            </div>
+            <div class="option">
+                <input type="checkbox" id="gamivo" data-setting="gamivo">
+                <label for="gamivo" data-locale-text="option.gamivo">gamivo</label>
+            </div>
+            <div class="option">
+                <input type="checkbox" id="instantgaming" data-setting="instantgaming">
+                <label for="instantgaming" data-locale-text="option.instantgaming">instantgaming</label>
+            </div>
+            <div class="option">
+                <input type="checkbox" id="eneba" data-setting="eneba">
+                <label for="eneba" data-locale-text="option.eneba">eneba</label>
+            </div>
+        </div>
+    </div>
+    <div class="steam_options">
+        <h1>Steam Options</h1>
+        <div class="option">
+            <input type="checkbox" id="showSteamspy" data-setting="showSteamspy">
+            <label for="showSteamspy" data-locale-text="option.showSteamspy">Show steamspy info</label>
+        </div>
+        <div class="option">
+            <input type="checkbox" id="showHltb" data-setting="showHltb">
+            <label for="showHltb" data-locale-text="option.showHltb">Show Hltb info</label>
+        </div>
+        <div class="option">
+            <input type="checkbox" id="showSteamCharts" data-setting="showSteamCharts">
+            <label for="showSteamCharts" data-locale-text="option.showSteamCharts">Show SteamCharts info</label>
+        </div>
+        <div class="option">
+            <input type="checkbox" id="showDRMWarning" data-setting="showDRMWarning">
+            <label for="showDRMWarning" data-locale-text="option.showDRMWarning">Show SteamCharts info</label>
+        </div>
+        <div class="option">
+            <input type="checkbox" id="removeAwards" data-setting="removeAwards">
+            <label for="removeAwards" data-locale-text="option.removeAwards">Remove Steam Awards</label>
+        </div>
+    </div>
+</body>
+<script src="js/lib/DOMPurify/purify.js"></script>
+<script src="js/lib/webextension-polyfill/browser-polyfill.js"></script>
+<script src="js/core.js"></script>
+<script src="js/language.js"></script>
+<script src="js/options/options.js"></script>
+
+</html>
